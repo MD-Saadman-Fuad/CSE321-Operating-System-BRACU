@@ -1,3 +1,5 @@
+//Perfect Number Checker
+
 #include <stdio.h>
 int main(){
 
@@ -16,9 +18,9 @@ for(int i=1; i<a; i++){
 }
 
 if(sum==a){
-  printf("%d is a perfect number", sum);
+  printf("%d is a perfect number", a);
 }else{
- printf("%d is not a perfect number", sum);
+ printf("%d is not a perfect number", a);
 }
  
 
